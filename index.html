@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <style>
+        *{
+            transition: 0.5s;
+        }
+    </style>
+    <!-- boxicon -->
+
+    <title>Portofolio Saya</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="main-countainer">
+            <div class="nav">
+                <div class="logo">
+                    <marquee behavior="" direction=""><a href="/"></a></marquee>
+                </div>
+                <!-- navbar -->
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#portfolios">Portofolio</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li>
+                            <a href="resume new.pdf" target="_blank">
+                                <button class="btn">Resume</button>
+                            </a>
+                        </li>
+                        <img src="moon.svg" id="icon">
+                    </ul>
+                </nav>
+                <!-- n navbar -->
+                <!-- buger -->
+                <div class="burger">
+                    <div class="line-1"></div>
+                    <div class="line-2"></div>
+                    <div class="line-3"></div>
+                </div>
+                <!-- n burger -->
+            </div>
+            <section id="hero">
+                <div class="hero-left">
+                    <h3 class="pre-title">hai, my name is</h3>
+                    <h1 class="hero-name">Raihan</h1>
+                    <p>Haloo.... awal mula ketertarikan saya untuk menekuni jurusan ini adalah karena perkembangan zaman yang saat ini ilmu teknologi sudah semakin canggih dan maju sedangkan di Indonesia untuk tenaga kerja di bidang ini masih dibilang sangat kurang. Selain itu, juga karena saya yakin passion saya adalah di bidang ini maka dari itu saya berani untuk memulai.</p>
+                </div>
+                <div class="hero-right">
+                    <img src="sapiens.svg" alt="Personal Standing">
+                </div>
+            </section>
+        </div>
+
+    </header>
+    <!-- n header -->
+
+    <!-- services -->
+    <section id="services">
+        <div class="services main-countainer">
+            <h3 class="pre-title">services</h3>
+            <h1 class="section-title services-title">Specialized In</h1>
+            <div class="grid-3">
+
+                <!-- services1 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M24 5c-3.923 3.265-5.623 4.716-7.15 4.716-2.44 0-3.681-3.675-4.85-7.716-1.165 4.028-2.41 7.715-4.853 7.715-1.513 0-3.168-1.404-7.147-4.715 3.321 7.018 3 14.292 3 17h18c0-1.718-.478-9.65 3-17zm-16.853 6.715c2.295 0 3.787-1.64 4.853-3.761 1.064 2.122 2.556 3.762 4.85 3.762 1.121 0 2.188-.43 3.126-1.042-.432 1.907-.68 3.72-.82 5.326h-14.322c-.138-1.617-.38-3.423-.808-5.324.927.607 2 1.039 3.121 1.039zm-2.14 8.285c-.003-.593-.016-1.267-.047-2h14.065c-.032.745-.046 1.422-.047 2h-13.971z"/></svg>
+                    </div>
+                    <h4>Web Designer</h4>
+                    <p>Designs, creates, deploys and updates programs for a particular device. Developers typically specialize in one area of development, such as mobile phone applications.</p>
+                </div>
+                <!-- sevices2
+                <div class="service">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-2.995 2.995-7.486 4-11 4 0 8.582 5.068 16.097 11 20 5.932-3.903 11-11.418 11-20-3.514 0-8.005-1.005-11-4zm-8.912 5.894c2.455-.246 5.912-1.012 8.912-3.25v18.906c-4-3.063-8.254-8.604-8.912-15.656z"/></svg>
+                    </div>
+                    <h4>security</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, vel.</p>
+                </div> -->
+                <!-- sevices3 -->
+                <div class="service">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm1 16.057v-3.057h2.994c-.059 1.143-.212 2.24-.456 3.279-.823-.12-1.674-.188-2.538-.222zm1.957 2.162c-.499 1.33-1.159 2.497-1.957 3.456v-3.62c.666.028 1.319.081 1.957.164zm-1.957-7.219v-3.015c.868-.034 1.721-.103 2.548-.224.238 1.027.389 2.111.446 3.239h-2.994zm0-5.014v-3.661c.806.969 1.471 2.15 1.971 3.496-.642.084-1.3.137-1.971.165zm2.703-3.267c1.237.496 2.354 1.228 3.29 2.146-.642.234-1.311.442-2.019.607-.344-.992-.775-1.91-1.271-2.753zm-7.241 13.56c-.244-1.039-.398-2.136-.456-3.279h2.994v3.057c-.865.034-1.714.102-2.538.222zm2.538 1.776v3.62c-.798-.959-1.458-2.126-1.957-3.456.638-.083 1.291-.136 1.957-.164zm-2.994-7.055c.057-1.128.207-2.212.446-3.239.827.121 1.68.19 2.548.224v3.015h-2.994zm1.024-5.179c.5-1.346 1.165-2.527 1.97-3.496v3.661c-.671-.028-1.329-.081-1.97-.165zm-2.005-.35c-.708-.165-1.377-.373-2.018-.607.937-.918 2.053-1.65 3.29-2.146-.496.844-.927 1.762-1.272 2.753zm-.549 1.918c-.264 1.151-.434 2.36-.492 3.611h-3.933c.165-1.658.739-3.197 1.617-4.518.88.361 1.816.67 2.808.907zm.009 9.262c-.988.236-1.92.542-2.797.9-.89-1.328-1.471-2.879-1.637-4.551h3.934c.058 1.265.231 2.488.5 3.651zm.553 1.917c.342.976.768 1.881 1.257 2.712-1.223-.49-2.326-1.211-3.256-2.115.636-.229 1.299-.435 1.999-.597zm9.924 0c.7.163 1.362.367 1.999.597-.931.903-2.034 1.625-3.257 2.116.489-.832.915-1.737 1.258-2.713zm.553-1.917c.27-1.163.442-2.386.501-3.651h3.934c-.167 1.672-.748 3.223-1.638 4.551-.877-.358-1.81-.664-2.797-.9zm.501-5.651c-.058-1.251-.229-2.46-.492-3.611.992-.237 1.929-.546 2.809-.907.877 1.321 1.451 2.86 1.616 4.518h-3.933z"/></svg>
+                    </div>
+                    <h4>Web development</h4>
+                    <p>Create and maintanain your website and also take care of its perfomance and traffic capacity</p>
+                </div>
+            </div>
+        </div>              
+    </section>
+    <!-- n services -->
+
+    <!-- portofolio -->
+    <section id="portfolios">
+        <div class="portfolios main-countainer">
+            <h3 class="pre-title">my works</h3>
+            <h1 class="section-title">featured portfolios</h1>
+
+            <div class="grid-3">
+                <!-- portfolio1 -->
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="project-2.jpg" alt="comingsoon">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Web Digital Library</h4>
+                            <a href="http://localhost/digitalibrary/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>PHP</div>
+                            <div>JavaScript</div>
+                        </div>
+                        <p>
+                            Website ini dibuat untuk mengasah logika saya dalam pemrograman PHP
+                        </p>
+                    </div>
+                </div>
+
+                <!-- portfolio2
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="portfolio.png" alt="comingsoon">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Website pembayaran spp</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>php</div>
+                            <div>css</div>
+                        </div>
+                        <p>
+                            saya membuat website pembayaran spp. <br> website ini juga memakai PHP,JS,CSS. Project website ini baru berjalan 40%
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- portfolio3
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="portfolio.png" alt="comingsoon">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>web ecomers</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>react</div>
+                            <div>tailwind</div>
+                        </div>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde praesentium minus reiciendis ratione adipisci cupiditate voluptatum? Odit aut exercitationem reiciendis corporis sunt dolores porro officiis eos facilis?
+                        </p>
+                    </div>
+                </div> -->
+
+                <!-- portfolio2 -->
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="portfolio.png" alt="comingsoon">
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Web Pembayaran SPP</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>HTML</div>
+                            <div>CSS</div>
+                            <div>PHP</div>
+                            <div>Boostrap</div>
+                        </div>
+                        <p>
+                           Website ini dibuat untuk mengembangkan skill saya dalam menggunakan Framework
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- n portfolio -->
+
+    <!-- skil -->
+    <section id="skills">
+        <div class="skills main-countainer">
+            <h3 class="pre-title">Learning path</h3>
+            <h1 class="section-title">Skills</h1>
+            <!-- 1 progress -->
+            <div class="container">
+                <div class="skill-box">
+                    <span class="title">HTML</span>
+    
+                    <div class="skill-bar">
+                        <span class="skil-per">
+                            <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>
+    
+                <div class="skill-box">
+                    <span class="title">CSS</span>
+    
+                    <div class="skill-bar">
+                        <span class="skil-per-2">
+                            <span class="tooltip">90%</span>
+                        </span>
+                    </div>
+                </div>          
+                <div class="skill-box">
+                    <span class="title">JavaScript</span>
+    
+                    <div class="skill-bar">
+                        <span class="skil-per-3">
+                            <span class="tooltip">70%</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="skill-box">
+                    <span class="title">PHP</span>
+    
+                    <div class="skill-bar">
+                        <span class="skil-per-4">
+                            <span class="tooltip">75%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- n skil -->
+
+    <!-- contact -->
+    <section id="contact">
+        <div class="contact main-countainer">
+            
+            <div class="contact-left">
+                <form action="https://formspree.io/f/xoqowykg" method="POST">
+                    <div>
+                        <input type="text" placeholder="name" name="name">
+                    </div>
+                    <div>
+                        <input type="email" name="emai" placeholder="email">
+                    </div>
+                    <div>
+                        <textarea name="message" placeholder="Comment" id="message" cols="30" rows="19"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit">send message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="contact-right">
+
+                <!-- contact item1 -->
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 3c2.131 0 4 1.73 4 3.702 0 2.05-1.714 4.941-4 8.561-2.286-3.62-4-6.511-4-8.561 0-1.972 1.869-3.702 4-3.702zm0-2c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>address</h4>
+                        <p>Cibinong, Pabuaran</p>
+                    </div>
+                </div>
+                
+                <!-- contact item2 -->
+                
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Phone</h4>
+                        <p>+62 8571-6251-734</p>
+                    </div>
+                </div>
+
+                <!-- contact item3 -->
+
+                <div class="contact-item">
+                    <div class="contact-item-icon">
+                        <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/></svg>
+                    </div>
+                    <div class="contact-item-detail">
+                        <h4>Email</h4>
+                        <p>rhan92969@gmail.com</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer>
+        <div class="footer-icon">
+            <a href="https://www.instagram.com/riquelme_kiki/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.082c1.602 0 1.792.006 2.425.035 1.627.074 2.385.845 2.46 2.459.028.633.034.822.034 2.424s-.006 1.792-.034 2.424c-.075 1.613-.832 2.386-2.46 2.46-.633.028-.822.035-2.425.035-1.602 0-1.792-.006-2.424-.035-1.63-.075-2.385-.849-2.46-2.46-.028-.632-.035-.822-.035-2.424s.007-1.792.035-2.424c.074-1.615.832-2.386 2.46-2.46.632-.029.822-.034 2.424-.034zm0-1.082c-1.63 0-1.833.007-2.474.037-2.18.1-3.39 1.309-3.49 3.489-.029.641-.036.845-.036 2.474 0 1.63.007 1.834.036 2.474.1 2.179 1.31 3.39 3.49 3.49.641.029.844.036 2.474.036 1.63 0 1.834-.007 2.475-.036 2.176-.1 3.391-1.309 3.489-3.49.029-.64.036-.844.036-2.474 0-1.629-.007-1.833-.036-2.474-.098-2.177-1.309-3.39-3.489-3.489-.641-.03-.845-.037-2.475-.037zm0 2.919c-1.701 0-3.081 1.379-3.081 3.081s1.38 3.081 3.081 3.081 3.081-1.379 3.081-3.081c0-1.701-1.38-3.081-3.081-3.081zm0 5.081c-1.105 0-2-.895-2-2 0-1.104.895-2 2-2 1.104 0 2.001.895 2.001 2s-.897 2-2.001 2zm3.202-5.922c-.397 0-.72.322-.72.72 0 .397.322.72.72.72.398 0 .721-.322.721-.72 0-.398-.322-.72-.721-.72z"/></svg>
+            </a>
+            <a href="https://wa.me/6285810329521">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            </a>
+            <a href="">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
+            <p>&#169; 2023 - made in kane</p>
+        </div>
+    </footer>
+    <!-- nfooter -->
+
+    <script src="min.js"></script>
+    <script>
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src="bxs-sun.svg";
+            }else{
+                icon.src="moon.svg";
+            }
+        }
+    </script>
+</body>
+</html>

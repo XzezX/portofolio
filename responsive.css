@@ -1,0 +1,128 @@
+@media screen and (max-width:1100px) {
+    P{
+        font-size: .9rem;
+        line-height: 1.8rem;
+    }
+
+    .grid-3{
+        gap: 1rem;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    /* burger */
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .toggel-burger .line-1{
+        transform: rotate(-46deg) translate(-5px, 8px);
+    }
+
+    .toggel-burger .line-2{
+        opacity: 0;
+    }
+    .toggel-burger .line-3{
+        transform: rotate(46deg) translate(-6px, -8px);
+    }
+
+    /* nav */
+    nav{
+        position: fixed;
+        width: 50%;
+        right: 0;
+        top: 0;
+        height: 100vh;
+        flex-direction: column;
+        background: var(--primaryBackgroundColor);
+        border-left: solid 1px var(--borderColor);
+        z-index: 9;
+        transform: translateX(100%);
+        transition: .2s ease-in-out;
+        
+    }
+
+    nav ul{
+        height: 100vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-active{
+        transform: translateX(0);
+    }
+
+    :root {
+        --sectionPadding: 4rem 0;
+    }
+
+    .section-title{
+        font-size: 1.6rem;
+        margin: 0.6rem;
+    }
+
+    .pre-title{
+        font-size: 0.8rem;
+    }
+
+    /* hero section */
+    #hero{
+        grid-template-columns: 1fr;
+        height: fit-content;
+        padding-top: 4.5rem;
+    }
+
+    .hero-right{
+        order: -1;
+    }
+
+    .hero-right img{
+        width: 65%;
+    }
+
+    .hero-left{
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    .hero-left .pre-title{
+        margin: 0 auto;
+    }
+
+    .hero-name{
+        margin-bottom: 0.5rem;
+        font-size: 2.3rem;
+    }
+
+
+    /* skill */
+    .container{
+        width: 80%;
+    }
+    .skill{
+        margin-top: 1rem;
+    }
+
+
+    /* footer */
+    footer{
+        padding: 2rem 0;
+    }
+
+}
+
+@media screen and (max-width:640px) {
+/* title */
+    .section-title {
+        font-size: 1.3rem;
+    }
+
+    .pre-title{
+        font-size: 0.7rem;
+    }
+
+
+
+}
